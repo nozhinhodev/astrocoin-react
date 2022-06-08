@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+*{
+  justify-content: center;
+  padding:5px;
+  font-family: 'Jaldi', sans-serif;
+
+}
+.columns{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  .main-col-s{
+    background-color: #131313;
+    align-items: center;
+    border-radius: 13px;
+    width: 860px;
+    height: 470px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    display: flex;
+
+
+  .button-36 {
+    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 4rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+    .button-36:hover {
+      box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+      transition-duration: .1s;
+    }
+
+    @media (min-width: 768px) {
+      .button-36 {
+        padding: 0 2.6rem;
+      }
+    }
+    .icons{
+      font-size: 34px;
+      color: white;
+      display: flex;
+      width: 100px;
+      .send{
+        cursor: pointer;
+        transition: 0.5s;
+        color: white;
+        left: 100px;
+        position: relative;
+      }
+      .get{
+        cursor: pointer;
+        transition: 0.5s;
+        color: white;
+        left: 50px;
+        position: relative;
+
+      }
+      .calendar{
+        cursor: pointer;
+        color: white;
+
+        transition: 0.5s;
+      }
+    }
+    .send:hover{
+      color: darkgrey;
+    }
+    .get:hover{
+      color: darkgrey;
+    }
+    .calendar:hover{
+      color: darkgrey;
+    }
+    .icons:hover{
+    }
+    .send:hover{
+      color: yellow;
+
+    }.get:hover{
+      color: yellow;
+
+    }.calendar:hover{
+      color: yellow;
+
+    }
+    .t1{
+      color: black;
+      text-align: center;
+      font-weight: 700;
+      padding-top: 40px;
+    }
+    .card{
+      width: 350px;
+      padding-top: 30px;
+      transition: 0.5s;
+      max-width: 50%;
+      height: auto;
+      display: block;
+      border: none;
+    }
+    .card:hover{
+    transform: scale(1.1);
+   }
+    .card,work:hover{
+
+
+    }
+    .t1{
+      color: white;
+      font-size: 26px;
+      span{
+        font-size: 12px;
+      }
+    }
+
+  }
+
+
+.sub-cl{
+  background-color: rgba(255, 255, 255, 0.91);
+  width: 860px;
+  border-radius: 25px;
+  align-items: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-top: 2px black solid;
+  margin: auto;
+  .o-bl{
+    color: black;
+
+    .links{
+      display: flex;
+      gap: 150px;
+      font-size: 22px;
+      border: 1px saddlebrown;
+      .li-t{
+        padding: 5px 5px;
+      }
+    }
+
+  }
+}
+}

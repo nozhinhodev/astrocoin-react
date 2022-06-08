@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+
+*{
+  justify-content: center;
+  font-family: 'Jaldi', sans-serif;
+}
+.navN{
+  display: flex;
+  .leftN{
+    display: flex;
+    .astrN{
+      font-size: 52px;
+      font-weight: 900;
+      position: relative;
+    }
+    .logo{
+      width: 50px;
+      position: relative;
+      cursor: pointer;
+      top: 10px;
+      right: 8px;
+    }
+  }
+  .rightN{
+    padding-top: 18px;
+    .linksN{
+      display: flex;
+      gap: 35px;
+      font-size: 22px;
+      color: black;
+      .linkN{
+        cursor: pointer;
+        transition: 0.4s;
+      }
+      .linkN:active{
+        color: blue;
+      }
+      .linkN:hover{
+        color: grey;
+      }
+    }
+
+    padding-left: 690px;
+  }
+  .left{
+  }
+}

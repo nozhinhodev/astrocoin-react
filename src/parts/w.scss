@@ -1,0 +1,54 @@
+@import url("https://use.typekit.net/hvj6qvb.css");
+*{
+  font-family: montserrat, sans-serif;
+
+}
+body{
+  background-color: #1b1b1b;
+}
+.blocks{
+  background-color: rgba(14, 14, 14, 0.49);
+  border-radius: 10px;
+  padding: 1px 20px;
+  margin-top: 35px;
+  .blocks-0{
+    display: flex;
+    .top-blocks1 {
+
+    }
+    .mid-blocks{
+
+    }
+  }
+
+  .right-ic {
+color: white;
+    background-color: #F24B48;
+    font-size: 34px;
+    border-radius: 20px;
+
+  }
+  .left-ic{
+    color: white;
+    background-color: #4C7CFC;
+    font-size: 34px;
+    border-radius: 20px;
+  }
+  .m-b{
+    font-size: 22px;
+    color: white;
+    padding-top: 25px;
+    text-align: center;
+  }
+  .blocks1{
+    color: white;
+    font-size: 16px;
+  }
+  .mid-blocks{
+  text-align: center;
+  }
+.t{
+  text-align: center;
+  font-weight: 700;
+}
+}

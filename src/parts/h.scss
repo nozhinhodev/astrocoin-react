@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+
+*{
+ justify-content: center;
+ padding:5px;
+ font-family: 'Jaldi', sans-serif;
+}
+Link{
+ color: white;
+}
+.navBar {
+ position: relative;
+}
+
+/*.navBar button {
+ position: fixed;
+ left: 40px;
+ top: 40px;
+ z-index: 10;
+ cursor: pointer;
+}*/
+
+.menuNav {
+ overflow-y: scroll;
+ list-style: none;
+ position: fixed;
+ top: 0;
+ background: darkcyan;
+ left: 0;
+ bottom: 0;
+ height: 100vh;
+ width: 0;
+ overflow: hidden;
+ max-width: 290px;
+ z-index: 9;
+}
+
+.menuNav.showMenu {
+ width: 100%;
+}
+
+a {
+ display: block;
+ padding: 10px 40px;
+ text-decoration: none;
+ color: #3fffd2;
+ text-transform: uppercase;
+ font-weight: bold;
+}
+
+.menuNav li:first-child {
+ margin-top: 7rem;
+}
+
+.nav{
+ display: flex;
+ .left{
+  padding-top: 12px;
+  .logo{
+   width: 140px;
+padding-right: 65px;
+  }
+ }
+  .right{
+   padding-top: 18px;
+   .links{
+    display: flex;
+    gap: 35px;
+    font-size: 22px;
+    color: white;
+    .link{
+     cursor: pointer;
+     transition: 0.4s;
+     color: white;
+    }
+    .link:active{
+    }
+    .link:hover{
+     color: yellow;
+    }
+   }
+
+   padding-left: 690px;
+  }
+ .left{
+  display: flex;
+  padding-left: 45px;
+  gap: 10px;
+
+  .bur-men{
+   font-size: 48px;
+  }
+ }
+}

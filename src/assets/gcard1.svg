@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="798" height="436" viewBox="0 0 798 436">
+    <defs>
+        <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#002bff"/>
+            <stop offset="0.109" stop-color="#00ada7"/>
+            <stop offset="0.197" stop-color="#38faff"/>
+            <stop offset="0.325" stop-color="#df34f9"/>
+            <stop offset="0.541" stop-color="#34f5f9"/>
+            <stop offset="0.742" stop-color="#c51fc0"/>
+            <stop offset="1" stop-color="#ff00cd"/>
+        </radialGradient>
+    </defs>
+    <g id="gcard1" transform="translate(18 18)" stroke="#707070" stroke-width="1" fill="url(#radial-gradient)">
+        <rect width="762" height="400" rx="20" stroke="none"/>
+        <rect x="0.5" y="0.5" width="761" height="399" rx="19.5" fill="none"/>
+    </g>
+</svg>
